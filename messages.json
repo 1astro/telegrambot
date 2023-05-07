@@ -1,0 +1,20 @@
+{
+    "welcome_message": {
+        "text": "\ud83c\udf55\ud83c\udf55\ud83c\udf55 Welcome to our Pizzaria! \ud83c\udf55\ud83c\udf55\ud83c\udf55\n\nHungry for some delicious pizza? We've got you covered! \ud83e\udd24\n\nCheck out our menu to see all of our mouth-watering pizza options. \ud83e\udd29\n\nTo view our menu, simply type /menu and we'll send it right over. \ud83d\udcdc\n\nWe can't wait to satisfy your pizza cravings! \ud83d\ude0b\ud83c\udf55"
+    },
+    "menu_message": {
+        "text": "Here are our pizza options:\n\n- Margherita - Tomato sauce, mozzarella, basil\n- Pepperoni - Tomato sauce, mozzarella, pepperoni\n- Hawaiian - Tomato sauce, mozzarella, ham, pineapple\n- Meat Lovers - Tomato sauce, mozzarella, sausage, bacon, ground beef\n- Vegetarian - Tomato sauce, mozzarella, mushrooms, onions, bell peppers"
+    },
+    "order_message": {
+        "success": "Thank you for ordering a {pizza_name}! Your delicious pizza is on its way. Your total comes to ${pizza_price}, including tax and delivery fees. We hope you enjoy!",
+        "fail": "Thank you for ordering from Pizza Palace! Unfortunately, we were unable to fulfill your order as the pizza you requested is currently out of stock or does not exist on our menu. We apologize for the inconvenience."
+    },
+
+    "dev_mode": {
+        "text": "You are currently an administrator and have full access to perform actions on this platform. Use these commands to perform actions:\n/edit - Edit pizza values\n/add - Add new pizzas\n/remove - Remove pizzas types\n/list - List all current pizzas\n/info - Explain further about the commands"
+    },
+
+    "info": {
+        "text": "How to use the commands:\n\n/edit *pizza name* *property* *new value*\n/add name(pizza name) description(pizza description) quantity(pizza quantity) price(pizza price)\n/remove *pizza name*\n/list (no args)"
+    }
+}
