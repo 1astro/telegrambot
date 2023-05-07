@@ -47,7 +47,6 @@ def menu(message):
 # Checks if user is an admin so admin commands can be accessed
 def dev_handler(func):
     def wrapper(message):
-        print(str(message.from_user.id), ADMIN_USER_ID, str(message.from_user.id) != ADMIN_USER_ID)
         if str(message.from_user.id) != ADMIN_USER_ID:
             bot.reply_to(message, "Sorry, you are not authorized to use this command.")
         else:
