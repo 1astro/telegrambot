@@ -1,2 +1,2 @@
 # telegrambot
-Here is a simple telegram bot example for my portfolio
+This is my first Telegram bot, so it's simple. It's also the first of many projects for my portfolio.
